@@ -1,14 +1,14 @@
-from scrapper.scrappers import Profile
+from scrapper.scrappers import Linkedin
 import scrapper.constants as const
 from bs4 import BeautifulSoup
 
-USERNAME = "kakn3654@gmail.com"
-PASSWORD = "niraj1805"
+USERNAME = const.USERNAME
+PASSWORD = const.PASSWORD
 
 
 def main():
     # Create an instance of the Profile class with explicit teardown control
-    bot = Profile(teardown=False)  # Browser won't close automatically
+    bot = Linkedin(teardown=False)  # Browser won't close automatically
     try:
         # Call the desired method (e.g., youtube)
         # bot.youtube()
