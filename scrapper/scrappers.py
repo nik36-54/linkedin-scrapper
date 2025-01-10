@@ -1,12 +1,19 @@
 import os
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import scrapper.constants as const
 from bs4 import BeautifulSoup
 import time
+import logging
+
+# Setup logging
+logging.basicConfig(
+    filename='scrappers.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 
 class Linkedin(webdriver.Chrome):
@@ -132,5 +139,85 @@ class Linkedin(webdriver.Chrome):
 
         return feeds
 
+    def extract_feed(self, soup):
+        feeds = []
 
+        # Find all feed containers
+        feed_elements = soup.find_all('div', class_='update-components-text')
 
+        for feed in feed_elements:
+            # Extract the main feed text
+            text_content = feed.find('span', class_='break-words tvm-parent-container')
+            if text_content:
+                feed_text = text_content.get_text(separator=' ').strip()
+
+                # Check for and exclude "update-v2-social-activity" content
+                social_activity = feed.find('div', class_='update-v2-social-activity')
+                if social_activity:
+                    social_activity_text = social_activity.get_text(separator=' ').strip()
+                    feed_text = feed_text.replace(social_activity_text, '')  # Remove the social activity content
+
+                # Append the cleaned feed text if it’s not empty
+                if feed_text:
+                    feeds.append(feed_text)
+
+        return feeds
+
+    def scroll_and_collect_feeds_txt(self, target_feed_count=10):
+        feeds = []
+        scroll_attempts = 0
+        max_scroll_attempts = 20  # Failsafe to prevent infinite scrolling
+
+        logging.info("Starting scroll and collect feeds process.")
+        logging.info(f"Target feed count: {target_feed_count}. Max scroll attempts: {max_scroll_attempts}.")
+
+        while len(feeds) < target_feed_count:
+            # Measure page height and dynamically adjust scroll step
+            page_height = self.execute_script("return document.body.scrollHeight")
+            scroll_step = page_height // 3  # Adjust scroll step dynamically
+
+            # Log current scroll position and number of feeds collected
+            logging.info(
+                f"Scroll attempt {scroll_attempts + 1}: Scrolling to position {scroll_step * scroll_attempts}.")
+            logging.info(f"Feeds collected so far: {len(feeds)} / {target_feed_count}.")
+
+            # Scroll and wait
+            self.execute_script(f"window.scrollTo(0, {scroll_step * scroll_attempts})")
+            time.sleep(20)  # Wait for new content to load
+
+            # Extract feed data
+            page_source = self.page_source
+            soup = BeautifulSoup(page_source, 'html.parser')
+            new_feeds = self.extract_feed(soup)  # Custom extraction logic
+
+            # Log the number of new feeds found in the current scroll
+            feeds_before = len(feeds)
+            feeds.extend(feed for feed in new_feeds if feed not in feeds)  # Avoid duplicates
+            feeds_after = len(feeds)
+            new_feed_count = feeds_after - feeds_before
+            logging.info(f"New feeds collected in this scroll: {new_feed_count}.")
+
+            if len(feeds) >= target_feed_count:
+                logging.info(f"Target feed count reached: {len(feeds)} feeds collected. Stopping scrolling.")
+                break
+
+            # Stop if no new content is loaded for multiple scrolls
+            if new_feed_count == 0:
+                logging.warning("No new content found. Stopping scrolling.")
+                break
+
+            scroll_attempts += 1
+            if scroll_attempts >= max_scroll_attempts:
+                logging.warning("Reached maximum scroll attempts. Stopping.")
+                break
+
+        # Log final result
+        logging.info(f"Scrolling completed. Total feeds collected: {len(feeds)}.")
+
+        # Save collected feeds to a separate file
+        with open('feeds_output.txt', 'w', encoding='utf-8') as file:
+            for index, feed in enumerate(feeds, start=1):
+                file.write(f"Feed {index}: {feed}\n")
+
+        logging.info("Feeds saved to 'feeds_output.txt'.")
+        return feeds

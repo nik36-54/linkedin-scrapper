@@ -1,0 +1,60 @@
+2025-01-09 17:00:16,194 - INFO - Starting scroll and collect feeds process.
+2025-01-09 17:00:16,194 - INFO - Target feed count: 10. Max scroll attempts: 9.
+2025-01-09 17:00:16,224 - INFO - Scroll attempt 1: Scrolling to position 0.
+2025-01-09 17:00:16,224 - INFO - Feeds collected so far: 0 / 10.
+2025-01-09 17:03:48,487 - INFO - Starting scroll and collect feeds process.
+2025-01-09 17:03:48,488 - INFO - Target feed count: 10. Max scroll attempts: 9.
+2025-01-09 17:03:48,502 - INFO - Scroll attempt 1: Scrolling to position 0.
+2025-01-09 17:03:48,502 - INFO - Feeds collected so far: 0 / 10.
+2025-01-09 17:04:08,901 - INFO - New feeds collected in this scroll: 3.
+2025-01-09 17:04:08,909 - INFO - Scroll attempt 2: Scrolling to position 1197.
+2025-01-09 17:04:08,909 - INFO - Feeds collected so far: 3 / 10.
+2025-01-09 17:04:29,349 - INFO - New feeds collected in this scroll: 0.
+2025-01-09 17:04:29,349 - WARNING - No new content found. Stopping scrolling.
+2025-01-09 17:04:29,349 - INFO - Scrolling completed. Total feeds collected: 3.
+2025-01-09 17:04:29,351 - INFO - Feeds saved to 'feeds_output.txt'.
+2025-01-10 00:38:43,634 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-01-10 00:38:59,200 - INFO - Starting scroll and collect feeds process.
+2025-01-10 00:38:59,200 - INFO - Target feed count: 50. Max scroll attempts: 20.
+2025-01-10 00:38:59,209 - INFO - Scroll attempt 1: Scrolling to position 0.
+2025-01-10 00:38:59,209 - INFO - Feeds collected so far: 0 / 50.
+2025-01-10 00:39:19,362 - INFO - New feeds collected in this scroll: 1.
+2025-01-10 00:39:19,367 - INFO - Scroll attempt 2: Scrolling to position 825.
+2025-01-10 00:39:19,367 - INFO - Feeds collected so far: 1 / 50.
+2025-01-10 00:39:39,684 - INFO - New feeds collected in this scroll: 7.
+2025-01-10 00:39:39,688 - INFO - Scroll attempt 3: Scrolling to position 5690.
+2025-01-10 00:39:39,689 - INFO - Feeds collected so far: 8 / 50.
+2025-01-10 00:40:00,014 - INFO - New feeds collected in this scroll: 2.
+2025-01-10 00:40:00,019 - INFO - Scroll attempt 4: Scrolling to position 9717.
+2025-01-10 00:40:00,019 - INFO - Feeds collected so far: 10 / 50.
+2025-01-10 00:40:20,419 - INFO - New feeds collected in this scroll: 5.
+2025-01-10 00:40:20,424 - INFO - Scroll attempt 5: Scrolling to position 19272.
+2025-01-10 00:40:20,424 - INFO - Feeds collected so far: 15 / 50.
+2025-01-10 00:40:40,873 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:40:40,878 - INFO - Scroll attempt 6: Scrolling to position 30275.
+2025-01-10 00:40:40,878 - INFO - Feeds collected so far: 19 / 50.
+2025-01-10 00:41:01,425 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:41:01,432 - INFO - Scroll attempt 7: Scrolling to position 45726.
+2025-01-10 00:41:01,432 - INFO - Feeds collected so far: 23 / 50.
+2025-01-10 00:41:22,102 - INFO - New feeds collected in this scroll: 5.
+2025-01-10 00:41:22,112 - INFO - Scroll attempt 8: Scrolling to position 64085.
+2025-01-10 00:41:22,112 - INFO - Feeds collected so far: 28 / 50.
+2025-01-10 00:41:42,890 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:41:42,901 - INFO - Scroll attempt 9: Scrolling to position 81496.
+2025-01-10 00:41:42,901 - INFO - Feeds collected so far: 32 / 50.
+2025-01-10 00:42:03,696 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:42:03,705 - INFO - Scroll attempt 10: Scrolling to position 99783.
+2025-01-10 00:42:03,705 - INFO - Feeds collected so far: 36 / 50.
+2025-01-10 00:42:24,657 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:42:24,667 - INFO - Scroll attempt 11: Scrolling to position 124090.
+2025-01-10 00:42:24,667 - INFO - Feeds collected so far: 40 / 50.
+2025-01-10 00:42:45,631 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:42:45,640 - INFO - Scroll attempt 12: Scrolling to position 149325.
+2025-01-10 00:42:45,640 - INFO - Feeds collected so far: 44 / 50.
+2025-01-10 00:43:06,744 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:43:06,754 - INFO - Scroll attempt 13: Scrolling to position 178188.
+2025-01-10 00:43:06,754 - INFO - Feeds collected so far: 48 / 50.
+2025-01-10 00:43:27,893 - INFO - New feeds collected in this scroll: 4.
+2025-01-10 00:43:27,893 - INFO - Target feed count reached: 52 feeds collected. Stopping scrolling.
+2025-01-10 00:43:27,893 - INFO - Scrolling completed. Total feeds collected: 52.
+2025-01-10 00:43:27,895 - INFO - Feeds saved to 'feeds_output.txt'.

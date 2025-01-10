@@ -74,14 +74,14 @@ def main():
         #     print(f"Feed {i}: {feed}")
 
         # Scroll and collect the first 10 feeds
-        feeds = bot.scroll_and_collect_feeds(target_feed_count=10, max_scroll_attempts=10, scroll_step=1000)
+        # feeds = bot.scroll_and_collect_feeds(target_feed_count=10, max_scroll_attempts=9, scroll_step=1000)
 
         # Print the extracted feed data (text content)
-        for index, data in enumerate(feeds, start=1):
-            print(f"Feed {index}:")
-            print(f"Text: {data['text']}")
-            print('-' * 40)
-
+        # for index, data in enumerate(feeds, start=1):
+        #     print(f"Feed {index}:")
+        #     print(f"Text: {data['text']}")
+        #     print('-' * 40)
+        feeds = bot.scroll_and_collect_feeds_txt(target_feed_count=50)
         input("Press Enter to quit...")
     finally:
         bot.quit()
