@@ -58,3 +58,282 @@
 2025-01-10 00:43:27,893 - INFO - Target feed count reached: 52 feeds collected. Stopping scrolling.
 2025-01-10 00:43:27,893 - INFO - Scrolling completed. Total feeds collected: 52.
 2025-01-10 00:43:27,895 - INFO - Feeds saved to 'feeds_output.txt'.
+2025-01-21 17:51:59,643 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-01-21 17:52:21,483 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-21 17:52:21,483 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-21 17:52:21,483 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-21 17:52:22,314 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-21 17:52:22,316 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-21 17:52:22,319 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-21 17:52:22,319 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-21 17:52:22,568 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-21 17:52:22,789 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-21 17:52:22,999 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-21 17:52:23,222 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-21 17:52:23,431 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-21 17:52:23,646 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-21 17:52:23,880 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-21 17:52:24,093 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-21 17:52:24,369 - INFO - Feed collection completed.
+2025-01-21 17:52:24,371 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-22 17:56:01,475 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 17:56:01,486 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 17:56:01,488 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 17:56:01,861 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 17:56:01,863 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 17:56:01,864 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 17:56:01,865 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 17:56:02,218 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 17:56:02,558 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 17:56:02,873 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 17:56:03,177 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 17:56:03,531 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 17:56:03,837 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 17:56:04,157 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 17:56:04,514 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 17:56:04,869 - INFO - Feed collection completed.
+2025-01-22 20:32:43,175 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 20:32:43,175 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 20:32:43,175 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 20:32:43,517 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 20:32:43,518 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 20:32:43,519 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 20:32:43,520 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 20:32:43,864 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 20:32:44,229 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 20:32:44,573 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 20:32:44,922 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 20:32:45,327 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 20:32:45,668 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 20:32:46,050 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 20:32:46,441 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 20:32:46,814 - INFO - Feed collection completed.
+2025-01-22 20:43:13,019 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 20:43:13,020 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 20:43:13,020 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 20:43:13,351 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 20:43:13,352 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 20:43:13,353 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 20:43:13,353 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 20:43:13,730 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 20:43:14,085 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 20:43:14,427 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 20:43:14,769 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 20:43:15,164 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 20:43:15,451 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 20:43:15,734 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 20:43:16,024 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 20:43:16,314 - INFO - Feed collection completed.
+2025-01-22 20:47:17,993 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 20:47:17,993 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 20:47:17,993 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 20:47:18,414 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 20:47:18,416 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 20:47:18,419 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 20:47:18,419 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 20:47:18,845 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 20:47:19,302 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 20:47:19,731 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 20:47:20,089 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 20:47:20,413 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 20:47:20,699 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 20:47:20,982 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 20:47:21,291 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 20:47:21,601 - INFO - Feed collection completed.
+2025-01-22 20:53:15,366 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 20:53:15,367 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 20:53:15,367 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 20:53:15,685 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 20:53:15,686 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 20:53:15,687 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 20:53:15,688 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 20:53:16,001 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 20:53:16,386 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 20:53:16,774 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 20:53:17,109 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 20:53:17,572 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 20:53:17,931 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 20:53:18,268 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 20:53:18,553 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 20:53:18,867 - INFO - Feed collection completed.
+2025-01-22 22:03:54,007 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 22:03:54,007 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 22:03:54,007 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 22:03:54,414 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 22:03:54,415 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 22:03:54,417 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 22:03:54,417 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 22:03:54,808 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 22:03:55,176 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 22:03:55,505 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 22:03:55,845 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 22:03:56,165 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 22:03:56,553 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 22:03:56,897 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 22:03:57,239 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 22:03:57,574 - INFO - Feed collection completed.
+2025-01-22 22:04:53,566 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 22:04:53,566 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 22:04:53,566 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 22:04:53,747 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 22:04:53,748 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 22:04:53,749 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 22:04:53,749 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 22:04:53,903 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 22:04:54,103 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 22:04:54,267 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 22:04:54,420 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 22:04:54,591 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 22:04:54,771 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 22:04:54,916 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 22:04:55,072 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 22:04:55,222 - INFO - Feed collection completed.
+2025-01-22 22:07:42,939 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-22 22:07:42,940 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-22 22:07:42,940 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-22 22:07:43,086 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-22 22:07:43,086 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-22 22:07:43,087 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-22 22:07:43,087 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-22 22:07:43,261 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-22 22:07:43,443 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-22 22:07:43,592 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-22 22:07:43,743 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-22 22:07:43,893 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-22 22:07:44,158 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-22 22:07:44,347 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-22 22:07:44,561 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-22 22:07:44,717 - INFO - Feed collection completed.
+2025-01-22 22:07:44,723 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-22 22:07:50,708 - INFO - File uploaded to Google Drive with ID: 1IMm6WlVUWDKB4-1jmI9RFNz_7tSMsB-k
+2025-01-23 00:01:40,166 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-23 00:01:40,167 - INFO - Target feed count: 5. Max scroll attempts: 15.
+2025-01-23 00:01:40,167 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-23 00:01:40,325 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-23 00:01:40,325 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-23 00:01:40,326 - INFO - New feed collected: Take advantage of this exclusive opportunity to elevate your AI skills as ahashtag#developer, integr...
+2025-01-23 00:01:40,326 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-23 00:01:40,483 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-23 00:01:40,639 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-23 00:01:40,827 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-23 00:01:41,034 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-23 00:01:41,197 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-23 00:01:41,386 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-23 00:01:41,553 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-23 00:01:41,712 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-23 00:01:41,892 - INFO - Scroll attempt 11: Current feed count is 3.
+2025-01-23 00:01:42,046 - INFO - Scroll attempt 12: Current feed count is 3.
+2025-01-23 00:01:42,202 - INFO - Scroll attempt 13: Current feed count is 3.
+2025-01-23 00:01:42,404 - INFO - Scroll attempt 14: Current feed count is 3.
+2025-01-23 00:01:42,571 - INFO - Scroll attempt 15: Current feed count is 3.
+2025-01-23 00:01:42,722 - INFO - Feed collection completed.
+2025-01-23 00:01:42,726 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-23 00:01:45,095 - INFO - File uploaded to Google Drive with ID: 1N6nzs_eZ9vHCBqoae6eq6m2UH0CjbC5V
+2025-01-24 21:44:29,534 - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-01-24 21:44:57,383 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-24 21:44:57,383 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-24 21:44:57,383 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-24 21:44:57,795 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-24 21:44:57,796 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-24 21:44:57,799 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-24 21:44:57,799 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-24 21:44:58,122 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-24 21:44:58,469 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-24 21:44:58,822 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-24 21:44:59,234 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-24 21:44:59,548 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-24 21:44:59,897 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-24 21:45:00,304 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-24 21:45:00,615 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-24 21:45:00,921 - INFO - Feed collection completed.
+2025-01-24 21:45:00,923 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-24 21:47:06,453 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-24 21:47:06,453 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-24 21:47:06,453 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-24 21:47:06,913 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-24 21:47:06,914 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-24 21:47:06,916 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-24 21:47:06,916 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-24 21:47:07,274 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-24 21:47:07,700 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-24 21:47:08,121 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-24 21:47:08,468 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-24 21:47:08,834 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-24 21:47:09,168 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-24 21:47:09,599 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-24 21:47:09,917 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-24 21:47:10,219 - INFO - Feed collection completed.
+2025-01-24 21:47:10,220 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-24 21:47:15,835 - INFO - HTTP Request: POST https://dhtfonpgrqculwakfymt.supabase.co/rest/v1/scrapper "HTTP/2 201 Created"
+2025-01-24 22:03:00,813 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-24 22:03:00,814 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-24 22:03:00,814 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-24 22:03:01,208 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-24 22:03:01,209 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-24 22:03:01,210 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-24 22:03:01,211 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-24 22:03:01,591 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-24 22:03:01,991 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-24 22:03:02,358 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-24 22:03:02,735 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-24 22:03:03,086 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-24 22:03:03,456 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-24 22:03:03,947 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-24 22:03:04,286 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-24 22:03:04,639 - INFO - Feed collection completed.
+2025-01-24 22:03:04,641 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-24 22:03:05,956 - INFO - HTTP Request: POST https://dhtfonpgrqculwakfymt.supabase.co/rest/v1/scrapper "HTTP/2 201 Created"
+2025-01-24 22:17:48,402 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-24 22:17:48,402 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-24 22:17:48,402 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-24 22:17:48,595 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-24 22:17:48,596 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-24 22:17:48,596 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-24 22:17:48,596 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-24 22:17:48,754 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-24 22:17:48,955 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-24 22:17:49,108 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-24 22:17:49,269 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-24 22:17:49,429 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-24 22:17:49,590 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-24 22:17:49,813 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-24 22:17:49,965 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-24 22:17:50,124 - INFO - Feed collection completed.
+2025-01-24 22:17:50,125 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-24 22:17:51,190 - INFO - HTTP Request: POST https://dhtfonpgrqculwakfymt.supabase.co/rest/v1/scrapper?columns=%22document%22%2C%22date%22 "HTTP/2 201 Created"
+2025-01-24 22:26:08,476 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-24 22:26:08,476 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-24 22:26:08,477 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-24 22:26:08,654 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-24 22:26:08,655 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-24 22:26:08,656 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-24 22:26:08,656 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-24 22:26:08,808 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-24 22:26:08,984 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-24 22:26:09,130 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-24 22:26:09,274 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-24 22:26:09,463 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-24 22:26:09,613 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-24 22:26:09,834 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-24 22:26:09,978 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-24 22:26:10,151 - INFO - Feed collection completed.
+2025-01-24 22:26:10,152 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-24 22:26:15,187 - INFO - HTTP Request: POST https://dhtfonpgrqculwakfymt.supabase.co/rest/v1/scrapper?columns=%22date%22%2C%22document%22 "HTTP/2 201 Created"
+2025-01-25 12:27:31,095 - INFO - Starting the company posts page scrolling and feed collection process.
+2025-01-25 12:27:31,105 - INFO - Target feed count: 5. Max scroll attempts: 10.
+2025-01-25 12:27:31,105 - INFO - Scroll attempt 1: Current feed count is 0.
+2025-01-25 12:27:31,535 - INFO - New feed collected: From creating meal plans to making history more accessible, discover how AI is turning the once unim...
+2025-01-25 12:27:31,536 - INFO - New feed collected: Microsoft has been named one of Glassdoor’s Best Places to Work in 2025! \U0001f3c6 This recognition reflects...
+2025-01-25 12:27:31,539 - INFO - New feed collected: Ready for a faster, seamless cloud migration? Join us for this exclusive virtual event to discover h...
+2025-01-25 12:27:31,539 - INFO - Scroll attempt 2: Current feed count is 3.
+2025-01-25 12:27:31,894 - INFO - Scroll attempt 3: Current feed count is 3.
+2025-01-25 12:27:32,228 - INFO - Scroll attempt 4: Current feed count is 3.
+2025-01-25 12:27:32,598 - INFO - Scroll attempt 5: Current feed count is 3.
+2025-01-25 12:27:32,959 - INFO - Scroll attempt 6: Current feed count is 3.
+2025-01-25 12:27:33,306 - INFO - Scroll attempt 7: Current feed count is 3.
+2025-01-25 12:27:33,614 - INFO - Scroll attempt 8: Current feed count is 3.
+2025-01-25 12:27:34,081 - INFO - Scroll attempt 9: Current feed count is 3.
+2025-01-25 12:27:34,405 - INFO - Scroll attempt 10: Current feed count is 3.
+2025-01-25 12:27:34,730 - INFO - Feed collection completed.
+2025-01-25 12:27:34,732 - INFO - Posts saved to 'company_posts.txt'.
+2025-01-25 12:27:35,608 - INFO - HTTP Request: POST https://dhtfonpgrqculwakfymt.supabase.co/rest/v1/scrapper?columns=%22date%22%2C%22document%22 "HTTP/2 201 Created"

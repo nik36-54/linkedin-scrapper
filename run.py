@@ -2,7 +2,9 @@ from scrapper.scrappers import Linkedin
 import scrapper.constants as const
 from bs4 import BeautifulSoup
 import time
-
+from supabase_src import store_company_posts
+# from supabase_config import supabase
+from datetime import datetime
 USERNAME = const.USERNAME
 PASSWORD = const.PASSWORD
 
@@ -15,7 +17,8 @@ def main():
 
         bot.login_page()
         bot.perform_login(username=USERNAME, password=PASSWORD)
-        bot.get(const.FEED_URL)
+        # bot.get(const.FEED_URL)
+        bot.get(const.POST_URL)
         time.sleep(5)
         # page_source = bot.page_source
         # print(page_source)
@@ -81,7 +84,16 @@ def main():
         #     print(f"Feed {index}:")
         #     print(f"Text: {data['text']}")
         #     print('-' * 40)
-        feeds = bot.scroll_and_collect_feeds_txt(target_feed_count=50)
+        # feeds = bot.scroll_and_collect_feeds_txt(target_feed_count=50)
+        posts = bot.scrap_company_posts(target_post_count=5, max_scroll_attempts=10)
+        # posts = bot.company_posts_gdrive(target_post_count=5, max_scroll_attempts=15)
+        with open("company_posts.txt", "r", encoding="utf-8") as file:
+            document_content = file.read()
+        post_db = store_company_posts(datetime.now(), document_content)
+        if post_db:
+            print("Uploaded data:", post_db)
+        else:
+            print("Failed to upload data.")
         input("Press Enter to quit...")
     finally:
         bot.quit()
